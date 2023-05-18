@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import store from './store';
 import { Provider } from 'react-redux';
-import { getData } from './users/userSlice';
+// import { getData } from './users/userSlice';
 
 // store.dispatch(getData())
 

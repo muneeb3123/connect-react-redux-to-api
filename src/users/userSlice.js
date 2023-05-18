@@ -16,6 +16,7 @@ export const getData = createAsyncThunk('fetch/data', async () => {
     console.log(error);
     }
   });
+
   
 const initialState = {
     users: [],

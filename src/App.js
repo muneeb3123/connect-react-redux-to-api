@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     dispatch(getData())
-  }, [])
+  }, [dispatch])
   return (
     <UsersComponent />
   );
